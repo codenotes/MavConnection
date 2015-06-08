@@ -1,7 +1,15 @@
-MavConnection
+MavConnection MSVC 2015, UDP
 =============
 
 A library to connect to APM through MAVLink protocol
+
+Changed from Neve's library which was serial based and on linux.  This is MSVC ported and UDP enabled.
+
+I needed this for a robotics project so modded it.  Use this as you will. 
+
+Below is the original README:
+
+-----------------------------
 
 To make the library run
 make lib
